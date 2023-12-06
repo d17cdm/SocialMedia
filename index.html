@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +19,7 @@
             margin: 0 auto;
             padding: 40px;
             text-align: center;
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.5); /* 50% opacity white */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             margin-top: 50px;
@@ -29,17 +30,19 @@
             height: 100px;
             border-radius: 50%;
             overflow: hidden;
-            margin: 0 auto 20px; /* Center the circle */
+            margin: 0 auto 20px;
+            /* Center the circle */
         }
 
         .profile-picture img {
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Maintain aspect ratio */
+            object-fit: cover;
+            /* Maintain aspect ratio */
         }
 
         h1 {
-            color: #3498db;
+            color: black;
         }
 
         .links-container {
@@ -65,39 +68,23 @@
         .link:hover {
             background-color: #2980b9;
         }
-
-        .landscape-image {
-            width: 100%;
-            max-width: 600px;
-            margin-top: 30px;
-            border-radius: 15px;
-            overflow: hidden;
-        }
     </style>
 </head>
+
 <body>
 
-<div class="container">
-    <div class="profile-picture">
-        <img src="profile-picture.jpg" alt="Profile Picture">
-    </div>
+    <div class="container">
+        <div class="profile-picture">
+            <img src="profile-picture.jpeg" alt="Profile Picture">
+        </div>
 
-    <h1>Damien Manuel</h1>
+        <h1>Damien Manuel</h1>
 
-    <div class="links-container">
-        <a href="https://example.com" class="link">Visit Website</a>
-        <a href="https://instagram.com/yourusername" class="link">Follow on Instagram</a>
-        <a href="https://twitter.com/yourusername" class="link">Follow on Twitter</a>
-        <a href="#" class="link">Fourth Link</a>
-        <a href="#" class="link">Fifth Link</a>
-        <!-- Add more links as needed -->
+        <div class="links-container">
+            <a href="https://open.spotify.com/user/damienmanuel?si=9384a5473fac417d" class="link">Spotify Playlist</a>
+        </div>
     </div>
-
-    <!-- Placeholder for Landscape Image -->
-    <div class="landscape-image">
-        <img src="landscape.jpg" alt="Landscape Image">
-    </div>
-</div>
 
 </body>
+
 </html>
